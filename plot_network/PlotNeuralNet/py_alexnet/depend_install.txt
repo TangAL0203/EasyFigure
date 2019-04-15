@@ -1,0 +1,6 @@
+# 1. 可以在 Ubuntu 安装很多 LaTeX 的分发版，其中一个是 texlive。
+sudo apt-get install texlive-full
+# sudo apt-get install texlive  #  安装简化版
+
+# 2. install latex-extra
+sudo apt-get install texlive-latex-extra
