@@ -94,7 +94,6 @@ ax.spines['left'].set_linewidth(3);####设置左边坐标轴的粗细
 ax.spines['right'].set_linewidth(3);###设置右边坐标轴的粗细
 ax.spines['top'].set_linewidth(3);####设置上部坐标轴的粗细
 
-
 x = range(len(nums))
 plt.plot(x, nums,"blue",label="ours",linewidth=5)
 # 画点
@@ -108,6 +107,8 @@ labels = ax.get_xticklabels() + ax.get_yticklabels()
 peaks_list = peaks
 peaks_dots = np.array(peaks_list)
 plt.scatter(peaks_dots[:,0],peaks_dots[:,1],c = 'red',s=600,marker = '.')
+
+# c = ['blue','cyan','green','black','magenta','red','white','yellow']
 
 # plt.xlabel("channel index",fontsize=30,fontweight='bold')
 # plt.ylabel("value",fontsize=30,fontweight='bold')
