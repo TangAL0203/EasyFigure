@@ -55,6 +55,8 @@ plt.title("TP Score分布直方图", fontdict=font)
 x_ticks = np.arange(0.9, 1.01, 0.01)
 plt.xticks(x_ticks)
 plt.show()
+# plt.savefig('squares_plot.png', bbox_inches='tight')
+# plt.close()
 
 
 '''
